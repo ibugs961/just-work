@@ -14,7 +14,7 @@ public class RabbitTest {
     public void getNameInt() throws Exception {
         Rabbit rabbit = new Rabbit();
         rabbit.setName(123);
-        Assert.assertEquals(123, rabbit.getName());
+        Assert.assertNull(rabbit.getName());
     }
 
     @Test
